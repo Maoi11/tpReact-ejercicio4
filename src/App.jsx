@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-import FormTarea from "./components/FormTarea";
+import FormTarea from "./components/formTarea";
 
 function App() {
  
