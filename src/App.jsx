@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-import FormTarea from "./components/formTarea";
+import FormTarea from "./components/FormTarea";
 
 function App() {
  
@@ -9,8 +9,8 @@ function App() {
   return (
     <>
     <Container className="my-5 mainPage">
-      <h1 className="display-4 text-center text-light">Lista de Tareas</h1>
-      <hr className="text-light"/>
+      <h1 className="display-4 text-center">Lista de Tareas</h1>
+      <hr />
      <FormTarea></FormTarea>
      </Container>
      <footer className="bg-dark text-light text-center py-4">
